@@ -29,7 +29,7 @@ public class HttpServer {
                 }catch (Exception e){
                     e.printStackTrace();
                 }
-            });
+            }).start();
 
         }
     }
